@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| test | test | validName |" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-02-22T22:46:28" hostname="PSI-1623" time="9.626">
+  <properties/>
+  <testcase name="Given I am on the application" classname="| test | test | validName |" time="0.0"/>
+  <testcase name="When test logs in with test" classname="| test | test | validName |" time="0.0"/>
+  <testcase name="And the employee creates a new expense report with validName" classname="| test | test | validName |" time="0.001"/>
+  <testcase name="Then expense report is made with validName" classname="| test | test | validName |" time="0.0"/>
+  <testcase name="classMethod" classname="| test | test | validName |" time="12.389"/>
+  <system-out><![CDATA[
+
+
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Employee create new expense report with name
+-------------------------------------------------------------------(as-an-employee-of-acme,-i-should-be-able-to-create-and-submit-a-new-expense-report;employee-create-new-expense-report-with-name;;2)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example #1: {name=test, password=test, expenseName=validName}
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Given I am on the application
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Open web page: http://api.peachfour.pac.pyramidchallenges.com/api/auth
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+]]></system-err>
+</testsuite>

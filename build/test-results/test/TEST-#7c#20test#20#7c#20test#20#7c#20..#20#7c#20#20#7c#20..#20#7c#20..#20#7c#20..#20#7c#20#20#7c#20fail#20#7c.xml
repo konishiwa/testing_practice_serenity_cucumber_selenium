@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| test | test | .. |  | .. | .. | .. |  | fail |" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-02-22T22:46:55" hostname="PSI-1623" time="0.223">
+  <properties/>
+  <testcase name="classMethod" classname="| test | test | .. |  | .. | .. | .. |  | fail |" time="0.223">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example #3: {name=test, password=test, expenseName=.., type=, description=.., date=.., cost=.., receipt=, status=fail}
+]]></system-err>
+</testsuite>
